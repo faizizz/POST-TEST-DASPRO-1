@@ -32,7 +32,7 @@ def konversipounds():
         input("SILAHKAN MASUKKAN MASSA KILOGRAM (KG) YANG INGIN ANDA KONVERSI: "))
     satuan_konversi()
     print('')
-    pilihan_konversi = int(input("PILIHAN KONVERSI: "))
+    pilihan_konversi = int(input("PILIHAN KONVERSI (1/2/3): "))
     if pilihan_konversi == 1:
         hasil_konversi_pounds = massa_awal * 2.204523
         print('')
@@ -82,7 +82,7 @@ while True:
             input("SILAHKAN MASUKKAN MASSA KILOGRAM (KG) YANG INGIN ANDA KONVERSI: "))
         satuan_konversi()
         print('')
-        pilihan_konversi = int(input("PILIHAN KONVERSI: "))
+        pilihan_konversi = int(input("PILIHAN KONVERSI (1/2/3): "))
         if pilihan_konversi == 1:
             hasil_konversi_pounds = massa_awal * 2.204523
             print('')
